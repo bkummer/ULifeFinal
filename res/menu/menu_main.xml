@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_timetable"
+        android:title="@string/timetable"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_navigation"
+        android:title="@string/navigation"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_dining"
+        android:title="@string/dining"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_ullifehacks"
+        android:title="@string/ullifehacks"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_tools"
+        android:title="@string/tools"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_social"
+        android:title="@string/social"
+        app:showAsAction="never"/>
+
+</menu>

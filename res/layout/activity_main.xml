@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ul.ulife.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="4dp"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:alignmentMode="alignMargins"
+        android:background="#006699"
+        android:columnCount="2"
+        android:paddingTop="?android:attr/actionBarSize"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/imageButton1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ic_timetable"
+            android:onClick="onClickTimetableActivity"
+            android:scaleType="fitCenter"
+            android:text="@string/homeBtn1"
+            android:textColor="@color/homeBtnTxt"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/imageButton2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ic_navigation_black_24dp"
+            android:onClick="onClickNavigationActivity"
+            android:text="@string/homeBtn2"
+            android:textColor="@color/homeBtnTxt"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/imageButton3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ic_local_dining_black_24dp"
+            android:onClick="onClickDiningActivity"
+            android:text="@string/homeBtn3"
+            android:textColor="@color/homeBtnTxt"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/imageButton4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ic_thumb_up_black_20dp"
+            android:onClick="onClickULLifeHacksActivity"
+            android:text="@string/homeBtn4"
+            android:textColor="@color/homeBtnTxt"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/imageButton5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ic_tools_black_20dp"
+            android:onClick="onClickToolsActivity"
+            android:text="@string/homeBtn5"
+            android:textColor="@color/homeBtnTxt"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/imageButton6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ic_social_black_24dp"
+            android:onClick="onClickSocialActivity"
+            android:text="@string/homeBtn6"
+            android:textColor="@color/homeBtnTxt"
+            android:textSize="16sp" />
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>

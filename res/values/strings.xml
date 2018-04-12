@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Test App</string>
+    <string name="homeBtn1"><b>Timetable</b></string>
+    <string name="homeBtn2"><b>Navigation</b></string>
+    <string name="homeBtn3"><b>Dining</b></string>
+    <string name="homeBtn4"><b>UL \n Life Hacks</b></string>
+    <string name="homeBtn5"><b>Tools</b></string>
+    <string name="homeBtn6"><b>Social</b></string>
+    <string name="timetable">Timetable</string>
+    <string name="navigation">Navigation</string>
+    <string name="dining">Dining</string>
+    <string name="ullifehacks">UL Life Hacks</string>
+    <string name="tools">Tools</string>
+    <string name="social">Social</string>
+    <string name="lifeHackBtn1">Study Spots</string>
+    <string name="lifeHackBtn2">Best Toilets</string>
+    <string name="lifeHackBtn3">Parking</string>
+    <string name="lifeHackBtn4">Bus Timetable</string>
+    <string name="lifeHackBtn5">Shortcuts</string>
+    <string name="lifeHackBtn6">Campus Scenery</string>
+    <string name="chronometer_start">Start</string>
+    <string name="chronometer_stop">Stop</string>
+    <string name="chronometer_reset">Reset</string>
+    <string name="chronometer_set_format">Set format string</string>
+    <string name="chronometer_clear_format">Clear format string</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="buildings">
+        <item>Building 1</item>
+    </array>
+    <array name="onCampus">
+        <item>Building 1</item>
+    </array>
+    <array name="nearCampus">
+        <item>Building 1</item>
+    </array>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_empty_not_basic">emptyNotBasic</string>
+    <string name="nearCampusText"> Near Campus </string>
+    <string name="onCampusText"> On Campus </string>
+    <string name="to_do_list">To Do List</string>
+    <string name="timer">Timer</string>
+    <string name="add_item">Add Item</string>
+</resources>
+
+
